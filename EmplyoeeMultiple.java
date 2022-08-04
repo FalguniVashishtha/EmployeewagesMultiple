@@ -1,8 +1,8 @@
 package com.bridgelabz.assignment.multiplecompany;
 import java.util.Random;
 public class EmplyoeeMultiple {
-    final static int FULL_TIME_WORKER = 1;
-    final static int PART_TIME_WORKER = 2;
+    static int FULL_TIME_WORKER = 1;
+    static int PART_TIME_WORKER = 2;
 
     public static void computeEmpWage(String company, int EMP_RATE_PER_HOUR, int Total_no_Working_Day, int EMP_TOTAL_HOURS)
     {
